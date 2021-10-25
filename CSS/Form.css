@@ -375,6 +375,10 @@ p{
         color: black;
         
     }
+
+    .Formulario form label{
+        font-size: 1.95rem;
+    }
     
 }
 
