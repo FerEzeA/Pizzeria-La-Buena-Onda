@@ -132,7 +132,6 @@ header nav ul:first-child{
     display: flex;
     font-size: 2rem;
     width: 100%;
-    text-align: center;
     justify-content: center;
     font-family: "lemonmilk";
 }
@@ -337,7 +336,7 @@ footer{
 
 
     
-@media all and (min-width:360px) and (max-width:599px){
+@media all and (min-width:330px) and (max-width:599px){
 
     body{
         padding-top: 0;
@@ -360,7 +359,7 @@ footer{
     display: flex;
     align-items: center;
     height: 8rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: "Dark Twenty";
     font-weight: bold;
     color: green;
@@ -397,11 +396,25 @@ footer{
     border-left: none;
     border-bottom: solid black 0.2rem;
     }
+
+    .Titulo{
+        display: flex;
+        width: 100%;
+        height: 8rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        font-size: 4.5rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lemonmilk";
+        color: whitesmoke;
+    }
    
 
     .pizzas{
         display: grid;
-        width: 34rem;
+        width: 32rem;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8,23rem);
         margin: auto;
@@ -428,7 +441,7 @@ footer{
     
     .pizza div h2{
         display: flex;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -437,16 +450,28 @@ footer{
     
     .pizza div p{
         display: flex;
-        font-size: 1.2rem;
+        font-size: 1.12rem;
         justify-content: center;
         font-family: "lemonmilk";
     }
 
-
-     
+    .Titulo2{
+        display: flex;
+        width: 100%;
+        height: 8rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        font-size: 4.5rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lemonmilk";
+        color: whitesmoke;
+    
+    }
     .empanadas{
     display: grid;
-    width: 34rem;
+    width: 32rem;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6,23rem);
     margin: auto;
@@ -473,7 +498,7 @@ footer{
 
     .empanada div h2{
     display: flex;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-align: center;
     justify-content: center;
     font-family: "Lemonmilk";
@@ -481,7 +506,7 @@ footer{
 
     .empanada div p{
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.12rem;
     text-align: center;
     justify-content: center;
     font-family: "Lemonmilk";

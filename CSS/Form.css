@@ -84,7 +84,7 @@ header nav ul:first-child{
 
 
 
-main section .Formulario form {
+.Formulario form {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -100,19 +100,19 @@ main section .Formulario form {
 
 
 
-main section .Formulario form h2{
+.Formulario form h2{
     text-align: center;
     font-size: 3rem;
     color: black;
     
 }
 
-main section .Formulario form label{
+.Formulario form label{
     font-size: 2rem;
 }
 
 
-main section .Formulario form input{
+.Formulario form input{
     width: 100%;
     height: 4rem;
     font-size: 1.75rem;
@@ -120,7 +120,7 @@ main section .Formulario form input{
 }
 
 
-main section .Formulario form textarea{
+.Formulario form textarea{
     width: 100%;
     max-width: 100%;
     min-width: 100%;
@@ -137,7 +137,7 @@ main section .Formulario form textarea{
 
 
 
-main section .Formulario form button{
+.Formulario form button{
     background-color: rgb(44, 180, 243);
     border-radius: 1.5rem;
     border: none;
@@ -147,17 +147,19 @@ main section .Formulario form button{
 }
 
 
-main section .Formulario form input:focus{
+.Formulario form input:focus{
     outline: none; 
+    border: solid #55acee 0.2rem;
 }
 
 
-main section .Formulario form textarea:focus{
+.Formulario form textarea:focus{
     outline: none;
+    border: solid #55acee 0.2rem;
 }
 
 
-main section .Formulario form button:hover{
+.Formulario form button:hover{
     background-color: rgb(92, 91, 91);
     cursor: pointer;
 }
@@ -292,7 +294,7 @@ p{
     
 
 
-@media all and (min-width:360px) and (max-width:599px) {
+@media all and (min-width:330px) and (max-width:599px) {
 
     body{
         padding-top: 0;
@@ -315,7 +317,7 @@ p{
     display: flex;
     align-items: center;
     height: 8rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: "Dark Twenty";
     font-weight: bold;
     color: green;
@@ -353,13 +355,13 @@ p{
     border-bottom: solid black 0.2rem;
     }
 
-    main section .Formulario form {
+    .Formulario form {
         margin: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding:3rem;
-        width: 34rem;
+        width: 32rem;
         height: 68rem;
         background-color: rgba(195, 195, 195, 0.6);
         border-radius: 2rem;
