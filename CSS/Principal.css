@@ -1,0 +1,441 @@
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+body{
+    padding-top: 10rem;
+    background-image: url("../Imágenes/Fondo\ Pizza.jpg");
+}
+
+header{
+    background-color: white;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+@font-face {
+    font-family: "Dark Twenty";
+    src: url("../Fuentes/Dark\ Twenty.otf");
+}
+
+.Nombre{
+    font-size: 5.5rem;
+    font-family: "Dark Twenty";
+    font-weight: bold;
+    color: green;
+    margin-left: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type:none;
+    margin-right: 2rem;
+}
+
+.barranav{
+    height: 5rem;
+    width: 12rem;
+    border-right: solid black 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:green;
+    font-size: 1.7rem;
+    font-weight: bold;  
+    font-family: "Lemonmilk";
+}
+
+header nav ul:first-child{
+    border-left: solid black 0.2rem;
+}
+
+.contenidonav:hover{
+    color: red;
+    transform: translateY(-0.2rem);
+}
+
+.contenidonav:active{
+    color: green;
+}
+
+
+@font-face {
+    font-family: "Lemonmilk" ;
+    src: url("../Fuentes/LEMONMILK-Regular.otf");
+}
+
+.Presentacion h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5.5rem;
+    font-family: "Lemonmilk";
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+
+.imagenyparrafo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+}
+
+.imagenyparrafo img{
+    width: 46rem;
+    border-radius: 100%;
+    margin-right: 5rem;
+}
+
+.imagenyparrafo p{
+    text-align: center;
+    width: 45rem;
+    font-size: 2.1rem;
+    color: white;
+    font-family: "Lemonmilk";
+    font-weight: bold;
+    margin-left: 5rem;
+}
+
+.Ubicacion div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 18rem;
+    margin-bottom: 4rem;
+    width: 70rem;
+}
+
+.Ubicacion div h2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Lemonmilk";
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.Ubicacion div iframe{
+    width: 100%;
+    height: 70rem;
+    border-radius: 2%;
+}
+
+#footer{
+    width: 100%;
+    height: 10rem;
+    background-image:url("../Imágenes/Fondo1.png");
+}
+
+.RedesSociales{
+    margin: auto;
+    width: 25rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.RedesSociales h2{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Lemonmilk";
+}
+
+.Iconos ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.Iconos a{
+    font-size: 3rem;
+    color: gray;
+}
+
+.Contactos ul{
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    font-family: "Lemonmilk";
+    list-style-type: none;
+}
+
+.Iconos li:hover{
+   transform: translateY(-0.2rem);
+}
+
+.fa-whatsapp:hover{
+    color: #4dc247;
+}
+
+.fa-instagram:hover{
+    background:radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285AEB 90%);
+    color: white;
+    border-radius: 20%;
+}
+
+.fa-twitter:hover{
+    color: #55acee;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+}
+
+@media all and (min-width:600px) and (max-width:1023px){
+
+    body{
+        padding-top: 15rem;
+        background-image: url("../Imágenes/Fondo\ Pizza.jpg");
+    }
+
+    header{
+        background-color: white;
+        height: 15rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        top: 0;
+    }
+
+    .Nombre{
+        font-size: 5.5rem;
+        font-family: "Dark Twenty";
+        font-weight: bold;
+        color: green;
+        margin-left: 0;
+    }
+
+    .Presentacion h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 5.5rem;
+        font-family: "Lemonmilk";
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .imagenyparrafo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        height: 100rem;
+    }
+
+    .imagenyparrafo img{
+        width: 46rem;
+        border-radius: 100%;
+        margin-right: 0;
+    }
+    
+    .imagenyparrafo p{
+        text-align: center;
+        width: 55rem;
+        font-size: 2.1rem;
+        color: white;
+        font-family: "Lemonmilk";
+        font-weight: bold;
+        margin-left: 0;
+    }
+
+    .Ubicacion div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        width: 55rem;
+    }
+    
+    .Ubicacion div iframe{
+        width: 100%;
+        height: 55rem;
+        border-radius: 2%;
+    }
+}
+
+@media all and (min-width:360px) and (max-width:599px){
+
+    body{
+        padding-top: 0;
+        background-color: rgb(235, 232, 232);
+    }
+
+    header{
+        background-color: white;
+        height: 28rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+        position: static;
+        top: 0;
+    }
+
+    .Nombre{
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    font-size: 4rem;
+    font-family: "Dark Twenty";
+    font-weight: bold;
+    color: green;
+    margin-left: 0;
+    }
+
+    header nav {
+    width: 100%;
+    }   
+
+    header nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    margin-right: 0;
+    }   
+
+    .barranav{
+    text-decoration: none;
+    color:green;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: bold;  
+    font-family: "Lemonmilk";
+    border-top: solid black 0.2rem;
+    border-right: none;
+    }
+
+    header nav ul:first-child{
+    border-left: none;
+    border-bottom: solid black 0.2rem;
+    }
+   
+    .Presentacion h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    font-family: "Lemonmilk";
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    }
+
+    .imagenyparrafo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100rem;
+    }
+
+    .imagenyparrafo img{
+        width: 35rem;
+        border-radius: 100%;
+        margin-right: 0;
+    }
+    
+    .imagenyparrafo p{
+        text-align: center;
+        width: 35rem;
+        font-size: 2.1rem;
+        color: white;
+        font-family: "Lemonmilk";
+        font-weight: bold;
+        margin-left: 0;
+    }
+
+    .Ubicacion div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        width: 35rem;
+    }
+
+    .Ubicacion div h2{
+        font-size: 2.4rem;
+        font-weight: bold;
+        font-family: "Lemonmilk";
+        margin-bottom: 4rem;
+    }
+    
+    .Ubicacion div iframe{
+        width: 100%;
+        height: 35rem;
+        border-radius: 2%;
+    } 
+}
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

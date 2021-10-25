@@ -1,0 +1,377 @@
+:root{
+    font-size: 62.5%;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    padding-top: 10rem;
+    background-image: url("../Imágenes/Fondo\ Pizza.jpg");
+}
+
+header{
+    background-color: white;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+@font-face {
+    font-family: "Dark Twenty";
+    src: url("../Fuentes/Dark\ Twenty.otf");
+}
+
+.Nombre{
+    font-size: 5.5rem;
+    font-family: "Dark Twenty";
+    font-weight: bold;
+    color: green;
+    margin-left: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type:none;
+    margin-right: 2rem;
+}
+
+.barranav{
+    height: 5rem;
+    width: 12rem;
+    border-right: solid black 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:green;
+    font-size: 1.7rem;
+    font-weight: bold;  
+    font-family: "Lemonmilk";
+}
+
+header nav ul:first-child{
+    border-left: solid black 0.2rem;
+}
+
+.contenidonav:hover{
+    color: red;
+    transform: translateY(-0.2rem);
+}
+
+.contenidonav:active{
+    color: green;
+}
+
+
+@font-face {
+    font-family: "Lemonmilk" ;
+    src: url("../Fuentes/LEMONMILK-Regular.otf");
+}
+
+
+
+
+
+main section .Formulario form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:3rem;
+    width: 50rem;
+    height: 68rem;
+    background-color: rgba(195, 195, 195, 0.6);
+    border-radius: 2rem;
+    margin-top: 4.45rem;
+    margin-bottom: 4.45rem;
+}
+
+
+
+main section .Formulario form h2{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    
+}
+
+main section .Formulario form label{
+    font-size: 2rem;
+}
+
+
+main section .Formulario form input{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.75rem;
+    border: none;
+}
+
+
+main section .Formulario form textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 15rem;
+    font-size: 1.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    min-height: 15rem;
+}
+
+.textarea{
+    margin-bottom: 1.75rem;
+}
+
+
+
+main section .Formulario form button{
+    background-color: rgb(44, 180, 243);
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    height: 5rem;
+}
+
+
+main section .Formulario form input:focus{
+    outline: none; 
+}
+
+
+main section .Formulario form textarea:focus{
+    outline: none;
+}
+
+
+main section .Formulario form button:hover{
+    background-color: rgb(92, 91, 91);
+    cursor: pointer;
+}
+
+.form-Control.true input{
+    border: solid greenyellow 0.2rem;
+}
+
+
+.form-Control.true textarea{
+    border: solid greenyellow 0.2rem;
+}
+
+.form-Control.false input{
+    border: solid red 0.2rem;
+}
+
+.form-Control.false textarea{
+    border: solid red 0.2rem;
+}
+
+p{
+    visibility: hidden;
+}
+
+
+.form-Control.false p{
+    visibility: visible;
+    color: red;
+    font-size: 1.6rem;
+}
+
+#footer{
+    width: 100%;
+    height: 10rem;
+    background-image:url("../Imágenes/Fondo1.png");
+}
+
+.RedesSociales{
+    margin: auto;
+    width: 25rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.RedesSociales h2{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Lemonmilk";
+}
+
+.Iconos ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.Iconos a{
+    font-size: 3rem;
+    color: gray;
+}
+
+.Contactos ul{
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    font-family: "Lemonmilk";
+    list-style-type: none;
+}
+
+.Iconos li:hover{
+   transform: translateY(-0.2rem);
+}
+
+.fa-whatsapp:hover{
+    color: #4dc247;
+}
+
+.fa-instagram:hover{
+    background:radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285AEB 90%);
+    color: white;
+    border-radius: 20%;
+}
+
+.fa-twitter:hover{
+    color: #55acee;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+}
+
+@media all and (min-width:600px) and (max-width:1023px){
+
+
+    body{
+        padding-top: 15rem;
+        background-image: url("../Imágenes/Fondo\ Pizza.jpg");
+    }
+
+    header{
+        background-color: white;
+        height: 15rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        top: 0;
+    }
+
+    .Nombre{
+        font-size: 5.5rem;
+        font-family: "Dark Twenty";
+        font-weight: bold;
+        color: green;
+        margin-left: 0;
+    }
+
+}
+    
+
+
+@media all and (min-width:360px) and (max-width:599px) {
+
+    body{
+        padding-top: 0;
+        background-image: url(../Imágenes/Fondo\ Pizza.jpg);
+    }
+
+    header{
+        background-color: white;
+        height: 28rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+        position: static;
+        top: 0;
+    }
+
+    .Nombre{
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    font-size: 4rem;
+    font-family: "Dark Twenty";
+    font-weight: bold;
+    color: green;
+    margin-left: 0;
+    }
+
+    header nav {
+    width: 100%;
+    }   
+
+    header nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    margin-right: 0;
+    }   
+
+    .barranav{
+    text-decoration: none;
+    color:green;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: bold;  
+    font-family: "Lemonmilk";
+    border-top: solid black 0.2rem;
+    border-right: none;
+    }
+
+    header nav ul:first-child{
+    border-left: none;
+    border-bottom: solid black 0.2rem;
+    }
+
+    main section .Formulario form {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding:3rem;
+        width: 34rem;
+        height: 68rem;
+        background-color: rgba(195, 195, 195, 0.6);
+        border-radius: 2rem;
+        margin-top: 4.45rem;
+        margin-bottom: 4.45rem;
+    }
+}
+
+
+
+
+
+
+
+
