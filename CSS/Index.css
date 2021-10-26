@@ -107,8 +107,12 @@ header nav ul:first-child{
 }
 
 .imagenyparrafo p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 45rem;
+    height: 45rem;
     font-size: 2.1rem;
     color: white;
     font-family: "Lemonmilk";
@@ -254,18 +258,20 @@ footer{
         width: 100%;
         justify-content: space-around;
         align-items: center;
-        height: 100rem;
+        height: 90rem;
     }
 
     .imagenyparrafo img{
         width: 46rem;
         border-radius: 100%;
         margin-right: 0;
+        margin-top: 2.5rem;
     }
     
     .imagenyparrafo p{
         text-align: center;
         width: 55rem;
+        height: 40rem;
         font-size: 2.1rem;
         color: white;
         font-family: "Lemonmilk";
@@ -368,14 +374,14 @@ footer{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    height: 100rem;
+    height: 85rem;
     }
 
     .imagenyparrafo img{
         width: 32rem;
         border-radius: 100%;
         margin-right: 0;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
     
     .imagenyparrafo p{
