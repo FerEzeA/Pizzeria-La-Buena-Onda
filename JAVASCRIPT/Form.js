@@ -90,7 +90,7 @@ const validacionNombre = (nombre)=>{
 }
 
 const validacionEmail = (email)=>{
-    return !/\w+@\w+\.+[:.com:]+$/.test(email); 
+    return !/\w+@\w+\.+[:c:]+[:o:]+[:m:]$/.test(email); 
 }
 
 const validacionTelefono = (telefono)=>{
