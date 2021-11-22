@@ -296,11 +296,11 @@ footer{
     }
 }
 
-@media all and (min-width:330px) and (max-width:599px){
+@media all and (max-width:599px){
 
     body{
         padding-top: 0;
-        background-image: url("../Imágenes/Fondo\ Pizza.jpg"); ;
+        background-image: url("../Imágenes/Fondo\ Pizza.jpg"); 
     }
 
     header{
